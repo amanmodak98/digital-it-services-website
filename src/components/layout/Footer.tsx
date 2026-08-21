@@ -342,6 +342,15 @@ export default function Footer() {
               fontFamily: "'Inter', sans-serif",
               fontSize: '0.875rem',
               color: '#8b949e',
+            }}
+          >
+            Designed &amp; Developed by <a href="https://www.infirexa.tech" target="_blank" rel="noopener noreferrer">Infirexa</a>
+          </p>
+          <p
+            style={{
+              fontFamily: "'Inter', sans-serif",
+              fontSize: '0.875rem',
+              color: '#8b949e',
               fontStyle: 'italic',
             }}
           >

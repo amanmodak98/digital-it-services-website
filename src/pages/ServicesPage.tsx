@@ -325,9 +325,9 @@ const ServicesPage: React.FC = () => {
                 </div>
                 <div className="font-mono text-sm space-y-2">
                   <div className="text-[#8b949e]">1  <span className="text-[#7c3aed]">import</span> <span className="text-[#06b6d4]">React</span> <span className="text-[#7c3aed]">from</span> <span className="text-[#2563eb]">'react'</span>;</div>
-                  <div className="text-[#8b949e]">2  <span className="text-[#7c3aed]">import</span> <span className="text-[#06b6d4]">{{ motion }}</span> <span className="text-[#7c3aed]">from</span> <span className="text-[#2563eb]">'framer-motion'</span>;</div>
+                  <div className="text-[#8b949e]">2  <span className="text-[#7c3aed]">import</span> <span className="text-[#06b6d4]">{'{ motion }'}</span> <span className="text-[#7c3aed]">from</span> <span className="text-[#2563eb]">'framer-motion'</span>;</div>
                   <div className="text-[#8b949e]">3</div>
-                  <div className="text-[#8b949e]">4  <span className="text-[#7c3aed]">const</span> <span className="text-[#06b6d4]">App</span> <span className="text-white">=</span> () <span className="text-white">=></span> {'{'}</div>
+                  <div className="text-[#8b949e]">4  <span className="text-[#7c3aed]">const</span> <span className="text-[#06b6d4]">App</span> <span className="text-white">=</span> {'() =>'} {'{'}</div>
                   <div className="text-[#8b949e]">5    <span className="text-[#7c3aed]">return</span> (</div>
                   <div className="text-[#8b949e]">6      <span className="text-[#2563eb]">&lt;div</span> <span className="text-[#06b6d4]">className</span>=<span className="text-[#2563eb]">"app"</span><span className="text-[#2563eb]">&gt;</span></div>
                   <div className="text-[#8b949e]">7        <span className="text-[#2563eb]">&lt;h1&gt;</span>Welcome<span className="text-[#2563eb]">&lt;/h1&gt;</span></div>
